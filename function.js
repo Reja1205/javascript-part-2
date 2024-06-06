@@ -55,7 +55,22 @@ myFunction3({
 let ary=[10,12,14,16];
 
 function myFunction4(anyArrays){
-console.log(`My arrays are ${anyArrays} last number of array is ${anyArrays[3]}`)
+//console.log(`My arrays are ${anyArrays} last number of array is ${anyArrays[3]}`)
 }
 
-myFunction4(ary)
+myFunction4(ary);
+
+//Function definition
+
+function addition(num1,num2,num3){
+    return num1+num2+num3;
+}
+
+//console.log(addition(10,20,30));
+
+//Function expression without giving function name
+let calculation=function(num1,num2,num3){
+    return num1+num2+num3;
+}
+
+console.log(calculation(10,50,100));
