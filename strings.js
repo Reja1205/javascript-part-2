@@ -22,4 +22,4 @@ let country =new String("Bangladesh");
 
 let firstName="Rejaur";
 let lastName="Rahman";
-console.log(firstName.concat(" ",lastName));
+//console.log(firstName.concat(" ",lastName));
