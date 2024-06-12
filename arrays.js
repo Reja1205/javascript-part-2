@@ -1,5 +1,5 @@
        const cars=["BMW", "Toyota", "Nissan","Ford"];
-       let position=cars.indexOf("Ford")+1;
+       let position=cars.indexOf("Ford"+1);
          console.log(position);
 
       //cars.push("Kia");
